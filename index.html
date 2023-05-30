@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste</title>
+</head>
+<body>
+    oi
+    <script>
+        async function main() {
+            const request = await fecth("meus-dados.txt")
+            const data = await request.text()
+            document.body.innerHTML = `<pre>${data}</pre>`
+        }
+
+        main()
+    </script>
+</body>
+</html>
