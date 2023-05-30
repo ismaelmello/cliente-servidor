@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "Davi",
+        "data-nascimento": [2001,10,20],
+        "CorFavorita": "Azul"
+       
+    },
+    {
+        "nome": "Mikaela",
+        "data-nascimento": [2005,5,15],
+        "CorFavorita": "vermelho"
+       
+    },
+    {
+        "nome": "Faustão",
+        "data-nascimento": [2004,9,18],
+        "CorFavorita": "amarelo"
+        
+    },
+    {
+        "nome": "Gabriel",
+        "data-nascimento": [2007,8,5],
+        "CorFavorita": "verde"
+        
+    },
+    {
+        "nome": "Rafael",
+        "data-nascimento": [2002,2,8], 
+        "CorFavorita": "amarelo"
+    },
+    {
+        "nome": "Josué",
+        "data-nascimento": [2003,7,28],
+        "CorFavorita": "branco"
+        
+    }
+]
