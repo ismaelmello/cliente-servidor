@@ -8,7 +8,7 @@
     oi
     <script>
         async function main() {
-            const request = await fecth("meus-dados.txt")
+            const request = await fetch("meus-dados.txt")
             const data = await request.text()
             document.body.innerHTML = `<pre>${data}</pre>`
         }
