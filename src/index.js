@@ -39,6 +39,22 @@ app.put("/movies", async (req, res) => {
 
 // ??????? PATCH
 
+app.patch("/movies", async (req, res) => {
+  const { id } = req.query
+  const { title, source, description, thumb } = req.body
+  const db = await getDatabaseInstance()
+  
+  const keys = Object.keys(req.body)
+
+  keys.forEach(atributes => {
+    if (atributes) {
+      console.log()
+    }
+  })
+})
+
+// ??????? PATCH
+
 app.delete("/movies", async (req, res) => {
   const { id } = req.query
   const db = await getDatabaseInstance()

@@ -1,1 +1,1 @@
-GET https://ismaelmello-miniature-eureka-5979prjj6wxc9x4-3000.preview.app.github.dev/ HTTP/1.1
+GET http://127.0.0.1:3000/movies HTTP/1.1
