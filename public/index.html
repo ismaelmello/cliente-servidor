@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Teste</title>
+  <meta charset="UTF-8">
+  <script defer async src="main.js"></script>
+  <title>Teste</title>
 </head>
+
 <body>
-    oi
-    <script>
-        async function main() {
-            const year = new Date().getFullYear()
-            const request = await fetch("meus-dados.json")
-            const data = await request.json()
+  <form>
+    <div>
+      <label for="title">title</label>
+      <input name="title" id="title">
+    </div>
+        
+    <div>
+      <label for="source">source</label>
+      <input name="source" id="source">
+    </div>
+        
+    <div>
+      <label for="description">description</label>
+      <input name="description" id="description">
+    </div>
+        
+    <div>
+      <label for="thumb">thumb</label>
+      <input name="thumb" id="thumb">
+    </div>
+        
+    <div>
+      <button>Cadastrar</button>
+    </div>
+  </form>
 
-            data.forEach(pessoa => {
-                document.body.innerHTML += `<button>${pessoa.nome}, 
-                    ${year - pessoa["data-nascimento"][0]},
-                    ${pessoa.CorFavorita} </button>`
-            })
-        }
+  <ul class="movie-list">
+    <!--  -->
+  </ul>
 
-        main()
-    </script>
+
 </body>
+
 </html>
